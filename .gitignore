@@ -1,0 +1,22 @@
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-/IDE-Dateien
+.vscode/
+.idea/
+*.swp
+
+# Node (falls für Build-Tools o.ä. genutzt)
+node_modules/
+npm-debug.log*
+
+# Lokale Umgebungsdateien (niemals Zugangsdaten committen)
+.env
+.env.local
+
+# Temporäre/Backup-Dateien
+*.bak
+*.tmp
+*~
