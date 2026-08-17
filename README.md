@@ -8,7 +8,7 @@ Basis-Grundgerüst für neue Kundenprojekte von Loka Studio (Stapper & Albrecht 
 2. Neues Repository in der Organisation `loka-studio` anlegen, benannt nach dem Schema `kundenname-ort` (z. B. `friseur-mueller-buehl`).
 3. Repository lokal klonen:
    ```
-   git clone https://github.com/loka-studio/<repo-name>.git
+   git clone https://github.com/lokastudioas-gif/<repo-name>.git
    cd <repo-name>
    ```
 4. In `index.html` und `style.css` die Platzhalter durch die echten Kundeninhalte ersetzen.
