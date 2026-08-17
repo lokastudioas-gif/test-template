@@ -3,73 +3,321 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kundenname – Kurzbeschreibung</title>
-<meta name="description" content="Kurze, prägnante Beschreibung für Suchmaschinen (150-160 Zeichen).">
+<title>Gasthaus Adler Bühlertal – Zimmer & Restaurant im Schwarzwald</title>
+<meta name="description" content="Familiengeführtes Gasthaus in Bühlertal: 9 klassisch eingerichtete Zimmer, badische Küche auf der Terrasse am Waldbach und persönlicher Service.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="topbar">
+  <div class="wrap">
+    <span>Hauptstr. 1 · 77830 Bühlertal</span>
+    <span><a href="tel:+497223998990">07223 / 9989-0</a> &nbsp;·&nbsp; <a href="mailto:info@hotel-adler-buehlertal.de">info@hotel-adler-buehlertal.de</a></span>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="wrap">
-    <div class="brand">Kundenname</div>
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" fill="#C69A4E"/>
+        <path d="M20 8 L30 20 L26 20 L26 32 L14 32 L14 20 L10 20 Z" fill="#182319"/>
+      </svg>
+      <span class="brand-name">Gasthaus Adler</span>
+    </div>
     <nav>
-      <a href="#leistungen">Leistungen</a>
       <a href="#ueber-uns">Über uns</a>
+      <a href="#zimmer">Zimmer</a>
+      <a href="#restaurant">Restaurant</a>
+      <a href="#lage">Lage</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
+    <a href="#kontakt" class="btn nav-cta">Zimmer anfragen</a>
   </div>
 </header>
 
 <section class="hero">
-  <div class="wrap">
-    <h1>Hauptaussage in einem Satz</h1>
-    <p class="lead">Ein bis zwei Sätze, die erklären, was der Kunde anbietet und für wen.</p>
-    <a href="#kontakt" class="btn">Jetzt Kontakt aufnehmen</a>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Seit Generationen in Bühlertal</div>
+      <h1>Ihr Gasthaus im <em>Herzen</em> des Schwarzwalds</h1>
+      <p class="lead">Fachwerkfassade, Sonnenterrasse am Waldbach und badische Küche – 9 Zimmer und ein Restaurant, in dem man sich noch persönlich um seine Gäste kümmert.</p>
+      <div class="hero-actions">
+        <a href="#kontakt" class="btn btn-primary">Zimmer anfragen</a>
+        <a href="#restaurant" class="btn btn-ghost">Zum Restaurant</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg class="hero-hills" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+        <rect width="480" height="420" fill="#1E2B22"/>
+        <path d="M0 300 L60 250 L120 290 L190 220 L260 280 L330 230 L400 275 L480 240 L480 420 L0 420 Z" fill="#26362A"/>
+        <path d="M0 340 L80 300 L150 335 L230 285 L300 330 L380 300 L480 330 L480 420 L0 420 Z" fill="#1A2418"/>
+        <circle cx="380" cy="90" r="46" fill="#C69A4E" opacity="0.9"/>
+      </svg>
+      <div class="sign">Fachwerk seit 1900er<span class="small">Familiengeführt</span></div>
+    </div>
   </div>
 </section>
 
-<section id="leistungen" class="section">
+<div class="wrap stats-wrap">
+  <div class="stats-band reveal">
+    <div class="stat">
+      <div class="stat-num" data-counter="9" data-suffix="">0</div>
+      <div class="stat-label">Zimmer</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-counter="4.7" data-decimals="1" data-suffix="★">0★</div>
+      <div class="stat-label">Ø-Bewertung Portale</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-counter="10" data-suffix=" Min">0 Min</div>
+      <div class="stat-label">bis zur A5</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-counter="100" data-suffix="%">0%</div>
+      <div class="stat-label">Weiterempfehlung¹</div>
+    </div>
+  </div>
+</div>
+
+<section class="section about" id="ueber-uns">
+  <div class="wrap about-grid">
+    <div class="facade reveal">
+      <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+        <rect width="400" height="500" fill="#EAE0C8"/>
+        <rect x="40" y="120" width="320" height="340" fill="#F3ECDC" stroke="#8A4A2B" stroke-width="6"/>
+        <line x1="40" y1="220" x2="360" y2="220" stroke="#8A4A2B" stroke-width="5"/>
+        <line x1="40" y1="320" x2="360" y2="320" stroke="#8A4A2B" stroke-width="5"/>
+        <line x1="140" y1="120" x2="140" y2="460" stroke="#8A4A2B" stroke-width="5"/>
+        <line x1="260" y1="120" x2="260" y2="460" stroke="#8A4A2B" stroke-width="5"/>
+        <rect x="65" y="150" width="55" height="55" fill="#26362A" opacity="0.85"/>
+        <rect x="165" y="150" width="55" height="55" fill="#26362A" opacity="0.85"/>
+        <rect x="285" y="150" width="55" height="55" fill="#26362A" opacity="0.85"/>
+        <rect x="65" y="250" width="55" height="55" fill="#26362A" opacity="0.85"/>
+        <rect x="285" y="250" width="55" height="55" fill="#26362A" opacity="0.85"/>
+        <rect x="170" y="360" width="60" height="100" fill="#6B3A21"/>
+        <polygon points="20,120 200,40 380,120" fill="#6B3A21"/>
+      </svg>
+    </div>
+    <div class="reveal d1">
+      <div class="kicker">Über uns</div>
+      <h2>Eine Pension mit Fachwerk-Charme, mitten im Schwarzwald</h2>
+      <p>Unsere Gasthaus-Fassade mit dem markanten Fachwerk prägt seit Jahrzehnten das Ortsbild von Bühlertal. Wer bei uns eintritt, findet klassisch eingerichtete Zimmer, kurze Wege und einen Empfang, der sich wirklich um jeden Gast kümmert.</p>
+      <ul class="about-list">
+        <li><span class="dot"></span>Familiengeführt seit Generationen</li>
+        <li><span class="dot"></span>Persönlicher Empfang & kurze Wege</li>
+        <li><span class="dot"></span>Ruhige Lage mitten im Grünen</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section rooms" id="zimmer">
   <div class="wrap">
-    <h2>Leistungen</h2>
-    <div class="grid-3">
-      <div class="card">
-        <h3>Leistung 1</h3>
-        <p>Kurze Beschreibung.</p>
+    <div class="section-head reveal">
+      <div class="kicker">Übernachten</div>
+      <h2>9 Zimmer, klassisch und gepflegt</h2>
+      <p>Jedes Zimmer verfügt über eigenes Bad, Schreibtisch und kostenfreies WLAN – ausgestattet für einen ruhigen Aufenthalt im Grünen.</p>
+    </div>
+    <div class="room-grid">
+      <div class="room-card reveal">
+        <div class="room-top"><svg viewBox="0 0 300 150" style="width:100%;height:100%;"><rect width="300" height="150" fill="#8A4A2B"/><rect x="30" y="60" width="240" height="70" fill="#F3ECDC"/><rect x="50" y="75" width="70" height="45" fill="#26362A" opacity="0.7"/><rect x="170" y="75" width="70" height="45" fill="#26362A" opacity="0.7"/></svg></div>
+        <div class="room-body">
+          <h3>Doppelzimmer Komfort</h3>
+          <p>Geräumig eingerichtet, mit Kühlschrank und eigenem Bad – ideal für Paare und Wanderurlauber.</p>
+          <div class="tag-row"><span class="tag">WLAN</span><span class="tag">Kühlschrank</span></div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Leistung 2</h3>
-        <p>Kurze Beschreibung.</p>
+      <div class="room-card reveal d1">
+        <div class="room-top"><svg viewBox="0 0 300 150" style="width:100%;height:100%;"><rect width="300" height="150" fill="#26362A"/><rect x="30" y="50" width="240" height="80" fill="#EAE0C8"/><rect x="50" y="65" width="55" height="50" fill="#6B3A21" opacity="0.6"/><rect x="122" y="65" width="55" height="50" fill="#6B3A21" opacity="0.6"/><rect x="194" y="65" width="55" height="50" fill="#6B3A21" opacity="0.6"/></svg></div>
+        <div class="room-body">
+          <h3>Familienzimmer</h3>
+          <p>Zusätzlicher Platz für Kinder jeden Alters, mit Schreibtisch und Blick ins Grüne.</p>
+          <div class="tag-row"><span class="tag">Für Familien</span><span class="tag">Ruhelage</span></div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Leistung 3</h3>
-        <p>Kurze Beschreibung.</p>
+      <div class="room-card reveal d2">
+        <div class="room-top"><svg viewBox="0 0 300 150" style="width:100%;height:100%;"><rect width="300" height="150" fill="#C69A4E"/><rect x="30" y="55" width="240" height="75" fill="#182319"/><circle cx="90" cy="92" r="26" fill="#F3ECDC" opacity="0.85"/><circle cx="210" cy="92" r="26" fill="#F3ECDC" opacity="0.85"/></svg></div>
+        <div class="room-body">
+          <h3>Komfortzimmer mit Safe</h3>
+          <p>Mit Bademantel und Laptop-Safe ausgestattet – für Gäste, die etwas mehr Komfort schätzen.</p>
+          <div class="tag-row"><span class="tag">Bademantel</span><span class="tag">Safe</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="#kontakt" class="btn btn-primary">Zimmer anfragen</a>
+    </div>
+  </div>
+</section>
+
+<section class="restaurant" id="restaurant">
+  <div class="wrap rest-grid">
+    <div class="reveal">
+      <div class="section-head" style="margin-bottom:24px;">
+        <div class="kicker">Genießen</div>
+        <h2>Badische Küche auf der Terrasse am Waldbach</h2>
+      </div>
+      <div class="rest-copy">
+        <p>Unser Restaurant serviert regionale Spezialitäten aus Baden – vom deftigen Vesper bis zum badischen Schäufele. Im Sommer speisen Sie auf der Sonnenterrasse direkt neben dem Waldbach.</p>
+      </div>
+      <a href="#kontakt" class="btn btn-ghost">Tisch reservieren</a>
+    </div>
+    <div class="rest-art reveal d1">
+      <svg viewBox="0 0 400 400" style="width:100%;height:100%;">
+        <rect width="400" height="400" fill="#182319"/>
+        <rect x="0" y="260" width="400" height="140" fill="#26362A"/>
+        <path d="M0 260 Q100 240 200 260 T400 260" fill="none" stroke="#C69A4E" stroke-width="3" opacity="0.6"/>
+        <circle cx="120" cy="150" r="4" fill="#C69A4E"/>
+        <circle cx="200" cy="110" r="4" fill="#C69A4E"/>
+        <circle cx="280" cy="160" r="4" fill="#C69A4E"/>
+        <rect x="90" y="290" width="220" height="12" fill="#6B3A21"/>
+        <rect x="110" y="302" width="10" height="50" fill="#6B3A21"/>
+        <rect x="280" y="302" width="10" height="50" fill="#6B3A21"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="kicker">Gästestimmen</div>
+      <h2>So bewerten uns unsere Gäste</h2>
+      <p style="font-size:12.5px;">Werte sinngemäß zusammengefasst auf Basis öffentlicher Portalbewertungen.</p>
+    </div>
+    <div class="review-grid">
+      <div class="review-card reveal">
+        <div class="review-score">4,7 / 5</div>
+        <div class="review-source">Hotelportale</div>
+        <p>Gäste loben besonders die Sauberkeit, die Herzlichkeit des Teams und das reichhaltige Frühstück.</p>
+      </div>
+      <div class="review-card reveal d1">
+        <div class="review-score">Platz 2 von 6</div>
+        <div class="review-source">Hotels in Bühlertal</div>
+        <p>Regelmäßig unter den bestbewerteten Häusern am Ort – geschätzt für persönliche Betreuung.</p>
+      </div>
+      <div class="review-card reveal d2">
+        <div class="review-score">100 %</div>
+        <div class="review-source">Weiterempfehlung¹</div>
+        <p>Wiederkehrende Gäste heben besonders die Steaks und die Lage nahe der Wanderwege hervor.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="ueber-uns" class="section section-alt">
-  <div class="wrap">
-    <h2>Über uns</h2>
-    <p>Kurzer Text über den Kunden/das Unternehmen.</p>
+<section class="section section-alt location" id="lage">
+  <div class="wrap loc-grid">
+    <div class="reveal">
+      <div class="kicker">Lage & Anfahrt</div>
+      <h2 style="font-size:32px; margin-bottom:16px;">Mitten im Schwarzwald, gut angebunden</h2>
+      <p style="color:var(--color-text-soft); margin-bottom:20px;">Nur 10 Autominuten von der A5, rund 14 km von Baden-Baden entfernt.</p>
+    </div>
+    <div class="map-box reveal d1">
+      <svg viewBox="0 0 400 400" style="width:100%;height:100%;">
+        <rect width="400" height="400" fill="#F3ECDC"/>
+        <path d="M0 60 L400 90" stroke="#C69A4E" stroke-width="4"/>
+        <path d="M0 220 L400 190" stroke="#8A4A2B" stroke-width="3" stroke-dasharray="8 6"/>
+        <circle cx="190" cy="150" r="9" fill="#8A4A2B"/>
+        <circle cx="190" cy="150" r="16" fill="none" stroke="#8A4A2B" stroke-width="2" opacity="0.4"/>
+        <text x="205" y="145" font-family="Karla" font-size="13" fill="#2B2620">Hauptstr. 1</text>
+        <text x="205" y="162" font-family="Karla" font-size="13" fill="#5B5548">77830 Bühlertal</text>
+      </svg>
+    </div>
   </div>
 </section>
 
-<section id="kontakt" class="section">
+<section class="cta-band" id="kontakt">
   <div class="wrap">
-    <h2>Kontakt</h2>
-    <p>Telefon: <a href="tel:+49">+49 ...</a></p>
-    <p>E-Mail: <a href="mailto:info@beispiel.de">info@beispiel.de</a></p>
-    <p>Adresse: Straße 1, PLZ Ort</p>
+    <h2>Reservieren Sie Ihr Zimmer im Adler</h2>
+    <p>Rufen Sie uns an oder schreiben Sie uns – wir melden uns persönlich zurück.</p>
+    <p style="margin-bottom:26px;">Telefon: <a href="tel:+497223998990">07223 / 9989-0</a> &nbsp;·&nbsp; E-Mail: <a href="mailto:info@hotel-adler-buehlertal.de">info@hotel-adler-buehlertal.de</a></p>
+    <a href="tel:+497223998990" class="btn btn-primary">Jetzt anrufen</a>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>© 2026 Kundenname</span>
-    <span><a href="#">Impressum</a> · <a href="#">Datenschutz</a></span>
+    <div class="foot-grid">
+      <div>
+        <h4>Gasthaus Adler</h4>
+        <p>Hauptstr. 1 · 77830 Bühlertal</p>
+        <p>Tel. 07223 / 9989-0</p>
+        <p>info@hotel-adler-buehlertal.de</p>
+      </div>
+      <div>
+        <h4>Seite</h4>
+        <p><a href="#ueber-uns">Über uns</a></p>
+        <p><a href="#zimmer">Zimmer</a></p>
+        <p><a href="#restaurant">Restaurant</a></p>
+        <p><a href="#lage">Lage</a></p>
+      </div>
+      <div>
+        <h4>Öffnungszeiten Restaurant</h4>
+        <p>Mo–Mi: 11:30–21:00 Uhr</p>
+        <p>Do: Ruhetag</p>
+        <p>Fr–So: 11:30–21:00 Uhr</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Gasthaus Adler Bühlertal</span>
+      <span><a href="#">Impressum</a> · <a href="#">Datenschutz</a></span>
+    </div>
   </div>
 </footer>
 
+<script>
+(function(){
+  function animateCounters(container){
+    container.querySelectorAll('[data-counter]').forEach(function(el){
+      if(el.dataset.done) return;
+      el.dataset.done = '1';
+      var target = parseFloat(el.dataset.counter);
+      var decimals = el.dataset.decimals ? parseInt(el.dataset.decimals,10) : 0;
+      var suffix = el.dataset.suffix || '';
+      var dur = 1300, start = null;
+      function step(ts){
+        if(!start) start = ts;
+        var p = Math.min((ts-start)/dur,1);
+        var eased = 1-Math.pow(1-p,3);
+        var val = target*eased;
+        el.textContent = (decimals ? val.toFixed(decimals) : Math.round(val)) + suffix;
+        if(p<1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if(reduceMotion){
+    document.querySelectorAll('[data-counter]').forEach(function(el){
+      var target = parseFloat(el.dataset.counter);
+      var decimals = el.dataset.decimals ? parseInt(el.dataset.decimals,10) : 0;
+      el.textContent = (decimals ? target.toFixed(decimals) : target) + (el.dataset.suffix || '');
+    });
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in-view'); });
+  } else {
+    var statsBand = document.querySelector('.stats-band');
+    if(statsBand){
+      var co = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if(e.isIntersecting){ animateCounters(statsBand); co.disconnect(); }
+        });
+      },{threshold:0.4});
+      co.observe(statsBand);
+    }
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in-view'); revealObserver.unobserve(e.target); }
+      });
+    },{threshold:0.15});
+    document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>
